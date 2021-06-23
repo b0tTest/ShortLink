@@ -16,14 +16,14 @@ SHORTCM_API = os.environ.get("SHORTCM_API", "")
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton(text='⭕ Join Updates Channel ⭕', url='https://telegram.me/Mytestbotz')
         ]]
     )
 
 @FayasNoushad.on_message(filters.private & filters.regex(r'https?://[^\s]+'))
 async def short(bot, update):
     message = await update.reply_text(
-        text="`Analysing your link...`",
+        text="`Analysing your link... ⏳`",
         disable_web_page_preview=True,
         quote=True
     )
@@ -140,7 +140,7 @@ async def short(bot, update):
     
     # Send the text
     try:
-        shorten_urls += "\n\nMade by @FayasNoushad"
+        shorten_urls += "\n\n Made❤️Kerala ( @OO7ROBot )"
         await message.edit_text(
             text=shorten_urls,
             reply_markup=BUTTONS,
