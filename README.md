@@ -4,17 +4,8 @@ A link shortner telegram bot
 
 ---
 
-```
-Please fork this repository don't import code
-Made with Python3
-(C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
-```
-
----
-
 ## Deploy 
+https://heroku.com/deploy
 
 <details>
   <summary><b>Deploy on Heroku</b></summary>
@@ -27,18 +18,6 @@ License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 
 </details>
 
-<details>
-  <summary><b>Deploy in your vps</b></summary>
-
-```sh
-git clone https://github.com/FayasNoushad/URL-Shortner-Bot/tree/main
-cd URL-Shortner-Bot
-pip3 install -r requirements.txt
-# <Create Variables appropriately>
-python3 main.py
-```
-
-</details>
 
 ---
 
